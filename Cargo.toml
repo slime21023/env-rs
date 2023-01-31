@@ -1,0 +1,21 @@
+[package]
+name = "env-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "list-env"
+path = "src/list-env/main.rs"
+
+[[bin]]
+name = "set-env"
+path = "src/set-env/main.rs"
+
+[[bin]]
+name = "get-env"
+path = "src/get-env/main.rs"
+
+[dependencies]
+dotenv = "0.15.0"
